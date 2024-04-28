@@ -52,7 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataFactory..cs" />
+    <Compile Include="EF\Entites\Admin\Admin.cs" />
+    <Compile Include="EF\Entites\Driver\Driver.cs" />
     <Compile Include="EF\Entites\Login.cs" />
+    <Compile Include="EF\Entites\User\User.cs" />
     <Compile Include="EF\UberContext.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202404270714539_InitDbWithLoginTable.cs" />
@@ -65,8 +68,11 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\Admin\AdminRepo.cs" />
+    <Compile Include="Repos\Driver\DriverRepo.cs" />
     <Compile Include="Repos\LoginRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\User\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -80,14 +86,7 @@
       <DependentUpon>202404281448025_addLoginDataBySeed.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EF\Entites\Admin\" />
-    <Folder Include="EF\Entites\Driver\" />
-    <Folder Include="EF\Entites\User\" />
-    <Folder Include="Repos\Admin\" />
-    <Folder Include="Repos\Driver\" />
-    <Folder Include="Repos\User\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
