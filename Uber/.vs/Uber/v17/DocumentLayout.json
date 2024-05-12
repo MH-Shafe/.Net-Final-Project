@@ -1,0 +1,487 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{772C834C-1BB0-4604-A433-AAC9DC95F1A5}|Uber\\Uber.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\uber\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{772C834C-1BB0-4604-A433-AAC9DC95F1A5}|Uber\\Uber.csproj|solutionrelative:uber\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{772C834C-1BB0-4604-A433-AAC9DC95F1A5}|Uber\\Uber.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\uber\\controllers\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{772C834C-1BB0-4604-A433-AAC9DC95F1A5}|Uber\\Uber.csproj|solutionrelative:uber\\controllers\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{772C834C-1BB0-4604-A433-AAC9DC95F1A5}|Uber\\Uber.csproj|d:\\class\\a.net\\code\\.net-final-project\\uber\\uber\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{772C834C-1BB0-4604-A433-AAC9DC95F1A5}|Uber\\Uber.csproj|solutionrelative:uber\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\bll\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|solutionrelative:bll\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\bll\\dtos\\admin\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\admin\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\bll\\services\\admin\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|solutionrelative:bll\\services\\admin\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\repos\\admin\\adminrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\admin\\adminrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\repos\\loginrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\loginrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\repos\\user\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\user\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\datafactory..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\datafactory..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\bll\\services\\driver\\driverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|solutionrelative:bll\\services\\driver\\driverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\bll\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|solutionrelative:bll\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\bll\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\bll\\dtos\\driver\\driverdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63D5F70-A7BE-4400-BA60-C024322A3817}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\driver\\driverdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\repos\\driver\\driverrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\driver\\driverrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\ef\\entites\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entites\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\ef\\entites\\driver\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entites\\driver\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\ef\\entites\\admin\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entites\\admin\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{772C834C-1BB0-4604-A433-AAC9DC95F1A5}|Uber\\Uber.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\uber\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{772C834C-1BB0-4604-A433-AAC9DC95F1A5}|Uber\\Uber.csproj|solutionrelative:uber\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{772C834C-1BB0-4604-A433-AAC9DC95F1A5}|Uber\\Uber.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\uber\\controllers\\driver\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{772C834C-1BB0-4604-A433-AAC9DC95F1A5}|Uber\\Uber.csproj|solutionrelative:uber\\controllers\\driver\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\migrations\\202404281448025_addlogindatabyseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404281448025_addlogindatabyseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\ef\\entites\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entites\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\ef\\ubercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\ubercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\dal\\migrations\\202404270714539_initdbwithlogintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655D9F1B-B4FC-4981-B5E3-4290B06C5821}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404270714539_initdbwithlogintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\Uber\\Controllers\\Admin\\AdminController.cs",
+              "RelativeDocumentMoniker": "Uber\\Controllers\\Admin\\AdminController.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\Uber\\Controllers\\Admin\\AdminController.cs",
+              "RelativeToolTip": "Uber\\Controllers\\Admin\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:09:49.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\Uber\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Uber\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\Uber\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Uber\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAmwD4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:33:40.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginRepo.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Repos\\LoginRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\LoginRepo.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Repos\\LoginRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\LoginRepo.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvysAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T07:22:42.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\Services\\Admin\\AdminService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\Admin\\AdminService.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\Services\\Admin\\AdminService.cs",
+              "RelativeToolTip": "BLL\\Services\\Admin\\AdminService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA6wA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:18:32.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\LoginDTO.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T07:33:10.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\LoginService.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\Services\\LoginService.cs",
+              "RelativeToolTip": "BLL\\Services\\LoginService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA5wDwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T07:30:49.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepo.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T13:16:06.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Repos\\User\\UserRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\User\\UserRepo.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Repos\\User\\UserRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\User\\UserRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:15:26.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\EF\\Entites\\Admin\\Admin.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Entites\\Admin\\Admin.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\EF\\Entites\\Admin\\Admin.cs",
+              "RelativeToolTip": "DAL\\EF\\Entites\\Admin\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:12:07.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminDTO.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\DTOs\\Admin\\AdminDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\Admin\\AdminDTO.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\DTOs\\Admin\\AdminDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\Admin\\AdminDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:16:44.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\Uber\\Web.config",
+              "RelativeDocumentMoniker": "Uber\\Web.config",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\Uber\\Web.config",
+              "RelativeToolTip": "Uber\\Web.config",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAD0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-27T06:22:56.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminRepo.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Repos\\Admin\\AdminRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\Admin\\AdminRepo.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Repos\\Admin\\AdminRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\Admin\\AdminRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:14:16.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\Uber\\Controllers\\User\\UserController.cs",
+              "RelativeDocumentMoniker": "Uber\\Controllers\\User\\UserController.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\Uber\\Controllers\\User\\UserController.cs",
+              "RelativeToolTip": "Uber\\Controllers\\User\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:10:43.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\EF\\Entites\\Driver\\Driver.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Entites\\Driver\\Driver.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\EF\\Entites\\Driver\\Driver.cs",
+              "RelativeToolTip": "DAL\\EF\\Entites\\Driver\\Driver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:12:48.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\EF\\Entites\\User\\User.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Entites\\User\\User.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\EF\\Entites\\User\\User.cs",
+              "RelativeToolTip": "DAL\\EF\\Entites\\User\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:13:04.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DriverRepo.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Repos\\Driver\\DriverRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\Driver\\DriverRepo.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Repos\\Driver\\DriverRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\Driver\\DriverRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:14:53.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DriverService.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\Services\\Driver\\DriverService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\Driver\\DriverService.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\Services\\Driver\\DriverService.cs",
+              "RelativeToolTip": "BLL\\Services\\Driver\\DriverService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:19:34.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataFactory..cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\DataFactory..cs",
+              "RelativeDocumentMoniker": "DAL\\DataFactory..cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\DataFactory..cs",
+              "RelativeToolTip": "DAL\\DataFactory..cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:27:34.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DriverDTO.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\DTOs\\Driver\\DriverDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\Driver\\DriverDTO.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\DTOs\\Driver\\DriverDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\Driver\\DriverDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:16:58.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\DTOs\\User\\UserDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\User\\UserDTO.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\DTOs\\User\\UserDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\User\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:17:17.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\Services\\User\\UserService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\User\\UserService.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\BLL\\Services\\User\\UserService.cs",
+              "RelativeToolTip": "BLL\\Services\\User\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:18:56.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DriverController.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\Uber\\Controllers\\Driver\\DriverController.cs",
+              "RelativeDocumentMoniker": "Uber\\Controllers\\Driver\\DriverController.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\Uber\\Controllers\\Driver\\DriverController.cs",
+              "RelativeToolTip": "Uber\\Controllers\\Driver\\DriverController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:10:27.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "202404281448025_addLoginDataBySeed.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Migrations\\202404281448025_addLoginDataBySeed.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404281448025_addLoginDataBySeed.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Migrations\\202404281448025_addLoginDataBySeed.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404281448025_addLoginDataBySeed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:48:06.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DAL\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T07:14:32.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\EF\\Entites\\Login.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Entites\\Login.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\EF\\Entites\\Login.cs",
+              "RelativeToolTip": "DAL\\EF\\Entites\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T06:19:45.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Repo.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Repos\\Repo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\Repo.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Repos\\Repo.cs",
+              "RelativeToolTip": "DAL\\Repos\\Repo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T07:20:52.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "202404270714539_InitDbWithLoginTable.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Migrations\\202404270714539_InitDbWithLoginTable.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404270714539_InitDbWithLoginTable.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\Migrations\\202404270714539_InitDbWithLoginTable.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404270714539_InitDbWithLoginTable.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T07:14:58.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UberContext.cs",
+              "DocumentMoniker": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\EF\\UberContext.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\UberContext.cs",
+              "ToolTip": "D:\\Class\\A.Net\\code\\.Net-Final-Project\\Uber\\DAL\\EF\\UberContext.cs",
+              "RelativeToolTip": "DAL\\EF\\UberContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T06:19:19.703Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -66,7 +66,6 @@ D:\Class\A.Net\code\.Net-Final-Project\Uber\Uber\bin\System.Web.Http.WebHost.xml
 D:\Class\A.Net\code\.Net-Final-Project\Uber\Uber\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Class\A.Net\code\.Net-Final-Project\Uber\Uber\obj\Debug\Uber.csproj.AssemblyReference.cache
 D:\Class\A.Net\code\.Net-Final-Project\Uber\Uber\obj\Debug\Uber.csproj.CoreCompileInputs.cache
-D:\Class\A.Net\code\.Net-Final-Project\Uber\Uber\obj\Debug\Uber.csproj.CopyComplete
 D:\Class\A.Net\code\.Net-Final-Project\Uber\Uber\obj\Debug\Uber.dll
 D:\Class\A.Net\code\.Net-Final-Project\Uber\Uber\obj\Debug\Uber.pdb
 D:\Class\A.Net\code\.Net-Final-Project\uber\Uber\bin\BLL.dll
@@ -77,3 +76,4 @@ D:\Class\A.Net\code\.Net-Final-Project\uber\Uber\bin\BLL.dll.config
 D:\Class\A.Net\code\.Net-Final-Project\uber\Uber\bin\DAL.pdb
 D:\Class\A.Net\code\.Net-Final-Project\uber\Uber\bin\DAL.dll.config
 D:\Class\A.Net\code\.Net-Final-Project\uber\Uber\bin\AutoMapper.xml
+D:\Class\A.Net\code\.Net-Final-Project\Uber\Uber\obj\Debug\Uber.csproj.Up2Date
