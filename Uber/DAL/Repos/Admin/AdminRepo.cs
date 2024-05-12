@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos.Admin
 {
-    internal class AdminRepo
+    public class AdminRepo
     {
+      
     }
 }

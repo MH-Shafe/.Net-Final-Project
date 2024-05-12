@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BLL.Services.Admin
 {
-    internal class AdminService
+    public class AdminService
     {
+   
     }
 }

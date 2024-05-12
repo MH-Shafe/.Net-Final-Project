@@ -42,6 +42,7 @@ namespace Uber.Controllers
             }
         }
         */
+        /*
         [HttpPost]
         [Route("api/login")]
         public HttpResponseMessage Login([FromBody] LoginDTO login)
@@ -63,6 +64,8 @@ namespace Uber.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
             }
         }
+        */
+      
 
     }     
     

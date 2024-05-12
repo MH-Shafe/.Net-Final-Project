@@ -46,5 +46,18 @@ namespace BLL.Services
 
             return retdata;
         }
+        public static List<LoginDTO> GetByRole(string roll)
+        {
+            var data = DataFactory.LoginData().Get().Where(l => l.roll == roll).ToList();
+
+            var config = new MapperConfiguration(cfg => {
+                cfg.CreateMap<Login, LoginDTO>();
+            });
+
+            var mapper = new Mapper(config);
+            var retdata = mapper.Map<List<LoginDTO>>(data);
+
+            return retdata;
+        }
     }
 }

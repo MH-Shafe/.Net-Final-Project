@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BLL.DTOs;
+using BLL.Services.Admin;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -7,7 +9,7 @@ using System.Web.Http;
 
 namespace Uber.Controllers.Admin
 {
-    public class AdminController : ApiController
-    {
-    }
+  
+        
+    
 }
