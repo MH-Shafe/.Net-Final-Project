@@ -1,5 +1,6 @@
 ﻿namespace DAL.Migrations
 {
+
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -22,12 +23,24 @@
             for (int i = 0; i < 10; i++) {
                 context.Logins.AddOrUpdate(new EF.Entites.Login
                 {
-                    username = "User-"+i,
+                     username = "User-"+i,
                     password = Guid.NewGuid().ToString().Substring(0,10),
                     roll= "Genaral"
                 });
             }  
             */
-    }
+            for (int i = 0; i < 10; i++)
+            {
+                context.SignUps.AddOrUpdate(new EF.Entites.Admin.SignUp
+                {
+                    username = "User-" + i,
+                    Name = "User Name " + i,
+                    Email = "user" + i + "@example.com",
+                    Country = "Country " + i
+                });
+            }
+
+            context.SaveChanges();
+        }
 }
 }

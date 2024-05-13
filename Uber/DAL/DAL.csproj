@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="DataFactory..cs" />
     <Compile Include="EF\Entites\Admin\Admin.cs" />
+    <Compile Include="EF\Entites\Admin\SignUp.cs" />
     <Compile Include="EF\Entites\Driver\Driver.cs" />
     <Compile Include="EF\Entites\Login.cs" />
     <Compile Include="EF\Entites\User\User.cs" />
@@ -65,6 +66,10 @@
     <Compile Include="Migrations\202404281448025_addLoginDataBySeed.cs" />
     <Compile Include="Migrations\202404281448025_addLoginDataBySeed.designer.cs">
       <DependentUpon>202404281448025_addLoginDataBySeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202405130535390_addAdminSingUpTable.cs" />
+    <Compile Include="Migrations\202405130535390_addAdminSingUpTable.Designer.cs">
+      <DependentUpon>202405130535390_addAdminSingUpTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202404281448025_addLoginDataBySeed.resx">
       <DependentUpon>202404281448025_addLoginDataBySeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405130535390_addAdminSingUpTable.resx">
+      <DependentUpon>202405130535390_addAdminSingUpTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
