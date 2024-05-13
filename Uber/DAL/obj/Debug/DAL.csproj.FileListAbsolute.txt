@@ -15,3 +15,20 @@ D:\Class\A.Net\code\.Net-Final-Project\uber\DAL\obj\Debug\DAL.Migrations.addLogi
 D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addDataAndTableToAdminSingUpTB.resources
 D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addRelationshipWithLoginAndSignUp.resources
+D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.InitDbWithLoginTable.resources
+D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addLoginDataBySeed.resources
+D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addDataAndTableToAdminSingUpTB.resources
+D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addRelationshipWithLoginAndSignUp.resources
+D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.dll
+D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.pdb
+D:\Class Material\.Net-Final-Project\Uber\DAL\bin\Debug\DAL.dll.config
+D:\Class Material\.Net-Final-Project\Uber\DAL\bin\Debug\DAL.dll
+D:\Class Material\.Net-Final-Project\Uber\DAL\bin\Debug\DAL.pdb
+D:\Class Material\.Net-Final-Project\Uber\DAL\bin\Debug\EntityFramework.dll
+D:\Class Material\.Net-Final-Project\Uber\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Class Material\.Net-Final-Project\Uber\DAL\bin\Debug\EntityFramework.xml
+D:\Class Material\.Net-Final-Project\Uber\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.csproj.CopyComplete

@@ -15,3 +15,20 @@ D:\Class\A.Net\code\.Net-Final-Project\uber\BLL\bin\Debug\DAL.pdb
 D:\Class\A.Net\code\.Net-Final-Project\uber\BLL\bin\Debug\DAL.dll.config
 D:\Class\A.Net\code\.Net-Final-Project\uber\BLL\bin\Debug\AutoMapper.xml
 D:\Class\A.Net\code\.Net-Final-Project\Uber\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\Class Material\.Net-Final-Project\Uber\BLL\bin\Debug\BLL.dll.config
+D:\Class Material\.Net-Final-Project\Uber\BLL\bin\Debug\BLL.dll
+D:\Class Material\.Net-Final-Project\Uber\BLL\bin\Debug\BLL.pdb
+D:\Class Material\.Net-Final-Project\Uber\BLL\bin\Debug\AutoMapper.dll
+D:\Class Material\.Net-Final-Project\Uber\BLL\bin\Debug\DAL.dll
+D:\Class Material\.Net-Final-Project\Uber\BLL\bin\Debug\EntityFramework.dll
+D:\Class Material\.Net-Final-Project\Uber\BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Class Material\.Net-Final-Project\Uber\BLL\bin\Debug\DAL.pdb
+D:\Class Material\.Net-Final-Project\Uber\BLL\bin\Debug\DAL.dll.config
+D:\Class Material\.Net-Final-Project\Uber\BLL\bin\Debug\AutoMapper.xml
+D:\Class Material\.Net-Final-Project\Uber\BLL\bin\Debug\EntityFramework.xml
+D:\Class Material\.Net-Final-Project\Uber\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Class Material\.Net-Final-Project\Uber\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Class Material\.Net-Final-Project\Uber\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Class Material\.Net-Final-Project\Uber\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Class Material\.Net-Final-Project\Uber\BLL\obj\Debug\BLL.dll
+D:\Class Material\.Net-Final-Project\Uber\BLL\obj\Debug\BLL.pdb
