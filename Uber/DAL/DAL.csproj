@@ -67,13 +67,18 @@
     <Compile Include="Migrations\202404281448025_addLoginDataBySeed.designer.cs">
       <DependentUpon>202404281448025_addLoginDataBySeed.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202405130535390_addAdminSingUpTable.cs" />
-    <Compile Include="Migrations\202405130535390_addAdminSingUpTable.Designer.cs">
-      <DependentUpon>202405130535390_addAdminSingUpTable.cs</DependentUpon>
+    <Compile Include="Migrations\202405130632083_addDataAndTableToAdminSingUpTB.cs" />
+    <Compile Include="Migrations\202405130632083_addDataAndTableToAdminSingUpTB.Designer.cs">
+      <DependentUpon>202405130632083_addDataAndTableToAdminSingUpTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202405130728330_addRelationshipWithLoginAndSignUp.cs" />
+    <Compile Include="Migrations\202405130728330_addRelationshipWithLoginAndSignUp.Designer.cs">
+      <DependentUpon>202405130728330_addRelationshipWithLoginAndSignUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\Admin\AdminRepo.cs" />
+    <Compile Include="Repos\Admin\SignUpRepo.cs" />
     <Compile Include="Repos\Driver\DriverRepo.cs" />
     <Compile Include="Repos\LoginRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
@@ -90,8 +95,11 @@
     <EmbeddedResource Include="Migrations\202404281448025_addLoginDataBySeed.resx">
       <DependentUpon>202404281448025_addLoginDataBySeed.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202405130535390_addAdminSingUpTable.resx">
-      <DependentUpon>202405130535390_addAdminSingUpTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202405130632083_addDataAndTableToAdminSingUpTB.resx">
+      <DependentUpon>202405130632083_addDataAndTableToAdminSingUpTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405130728330_addRelationshipWithLoginAndSignUp.resx">
+      <DependentUpon>202405130728330_addRelationshipWithLoginAndSignUp.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

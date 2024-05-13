@@ -13,5 +13,14 @@ namespace DAL.EF
     {
         public DbSet<Login> Logins { get; set; }
         public DbSet<SignUp> SignUps { get; set; }
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Login>()
+                .HasRequired(l => l.SignUp)
+                .WithMany()
+                .HasForeignKey(l => l.SignUpId);
+        }
+
+
     }
 }

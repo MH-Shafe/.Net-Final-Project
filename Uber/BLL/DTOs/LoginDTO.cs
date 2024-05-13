@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLL.DTOs.Admin;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,5 +13,7 @@ namespace BLL.DTOs
         public string username { get; set; }
         public string password { get; set; }
         public string roll { get; set; }
+        public int SignUpId { get; set; } // Add SignUpId to maintain the relationship
+        public SignUpDTO SignUp { get; set; } // Add SignUp DTO
     }
 }

@@ -7,13 +7,13 @@ namespace DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class addAdminSingUpTable : IMigrationMetadata
+    public sealed partial class addDataAndTableToAdminSingUpTB : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addAdminSingUpTable));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(addDataAndTableToAdminSingUpTB));
         
         string IMigrationMetadata.Id
         {
-            get { return "202405130535390_addAdminSingUpTable"; }
+            get { return "202405130632083_addDataAndTableToAdminSingUpTB"; }
         }
         
         string IMigrationMetadata.Source

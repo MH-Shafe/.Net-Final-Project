@@ -13,4 +13,5 @@ D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.InitDbW
 D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 D:\Class\A.Net\code\.Net-Final-Project\uber\DAL\obj\Debug\DAL.Migrations.addLoginDataBySeed.resources
 D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.csproj.Up2Date
-D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addAdminSingUpTable.resources
+D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addDataAndTableToAdminSingUpTB.resources
+D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addRelationshipWithLoginAndSignUp.resources
