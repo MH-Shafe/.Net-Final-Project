@@ -15,3 +15,20 @@ D:\Class\A.Net\code\.Net-Final-Project\uber\BLL\bin\Debug\DAL.pdb
 D:\Class\A.Net\code\.Net-Final-Project\uber\BLL\bin\Debug\DAL.dll.config
 D:\Class\A.Net\code\.Net-Final-Project\uber\BLL\bin\Debug\AutoMapper.xml
 D:\Class\A.Net\code\.Net-Final-Project\Uber\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\shafe .net\.Net-Final-Project\Uber\BLL\bin\Debug\BLL.dll.config
+D:\shafe .net\.Net-Final-Project\Uber\BLL\bin\Debug\BLL.dll
+D:\shafe .net\.Net-Final-Project\Uber\BLL\bin\Debug\BLL.pdb
+D:\shafe .net\.Net-Final-Project\Uber\BLL\bin\Debug\AutoMapper.dll
+D:\shafe .net\.Net-Final-Project\Uber\BLL\bin\Debug\DAL.dll
+D:\shafe .net\.Net-Final-Project\Uber\BLL\bin\Debug\EntityFramework.dll
+D:\shafe .net\.Net-Final-Project\Uber\BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\shafe .net\.Net-Final-Project\Uber\BLL\bin\Debug\DAL.pdb
+D:\shafe .net\.Net-Final-Project\Uber\BLL\bin\Debug\DAL.dll.config
+D:\shafe .net\.Net-Final-Project\Uber\BLL\bin\Debug\AutoMapper.xml
+D:\shafe .net\.Net-Final-Project\Uber\BLL\bin\Debug\EntityFramework.xml
+D:\shafe .net\.Net-Final-Project\Uber\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\shafe .net\.Net-Final-Project\Uber\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\shafe .net\.Net-Final-Project\Uber\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\shafe .net\.Net-Final-Project\Uber\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\shafe .net\.Net-Final-Project\Uber\BLL\obj\Debug\BLL.dll
+D:\shafe .net\.Net-Final-Project\Uber\BLL\obj\Debug\BLL.pdb
