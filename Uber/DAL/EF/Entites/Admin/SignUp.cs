@@ -14,7 +14,7 @@ namespace DAL.EF.Entites.Admin
         public string Email { get; set; }
         public string Country {  get; set; }
         // Navigation property for Login
-        public virtual Login Login { get; set; }
+        public virtual Login Logins { get; set; }
 
     }
 }

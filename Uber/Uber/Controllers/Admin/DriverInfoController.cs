@@ -1,39 +1,42 @@
 ﻿using BLL.DTOs.Admin;
-using BLL.Services;
 using BLL.Services.Admin;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
 namespace Uber.Controllers.Admin
 {
-    public class SignUpController : ApiController
-    {
+    [RoutePrefix("api/admin")]
+    public class DriverInfoController : ApiController
+    {        
+
         [HttpGet]
-        [Route("api/signup/{id}")]
+        [Route("driverinfo/{id}")]
         public HttpResponseMessage Get(int id)
         {
-            var data = SignUpService.Get(id);
+            var data = DriverInfoService.Get(id);
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
         [HttpPost]
-        [Route("api/signup/create")]
-        public HttpResponseMessage Create(SignUpDTO signUpDTO)
+        [Route("driverinfo/create")]
+        public HttpResponseMessage Create(DriverInfoDTO driverInfoDTO)
         {
             if (!ModelState.IsValid)
                 return Request.CreateResponse(HttpStatusCode.BadRequest);
 
-            SignUpService.Create(signUpDTO);
+            DriverInfoService.Create(driverInfoDTO);
             return Request.CreateResponse(HttpStatusCode.OK);
         }
 
         [HttpGet]
-        [Route("api/signup/all")]
+        [Route("driverinfo/all")]
         public HttpResponseMessage GetAll()
         {
-            var data = SignUpService.GetAll();
+            var data = DriverInfoService.GetAll();
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
     }

@@ -33,6 +33,11 @@ namespace DAL.Repos
             return db.Logins.Find(id);
         }
 
+        public object GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Update(Login obj)
         {
             var exobj = Get(obj.Id);

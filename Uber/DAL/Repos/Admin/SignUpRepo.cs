@@ -41,6 +41,11 @@ namespace DAL.Repos
             return context.SignUps.Find(id);
         }
 
+        public object GetAll()
+        {
+            throw new System.NotImplementedException();
+        }
+
         public void Update(SignUp obj)
         {
             var exobj = Get(obj.Id);

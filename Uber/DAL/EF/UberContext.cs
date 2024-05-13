@@ -1,5 +1,7 @@
-﻿using DAL.EF.Entites;
-using DAL.EF.Entites.Admin;
+﻿using DAL.EF.Entites.Admin;
+using DAL.EF.Entites;
+using DAL.EF.Entities;
+using DAL.EF.Entities.Admin;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -13,6 +15,8 @@ namespace DAL.EF
     {
         public DbSet<Login> Logins { get; set; }
         public DbSet<SignUp> SignUps { get; set; }
+        public DbSet<DriverInfo> DriverInfos { get; set; } // Add DbSet for DriverInfo
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Login>()
@@ -20,7 +24,5 @@ namespace DAL.EF
                 .WithMany()
                 .HasForeignKey(l => l.SignUpId);
         }
-
-
     }
 }

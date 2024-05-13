@@ -15,3 +15,4 @@ D:\Class\A.Net\code\.Net-Final-Project\uber\DAL\obj\Debug\DAL.Migrations.addLogi
 D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addDataAndTableToAdminSingUpTB.resources
 D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addRelationshipWithLoginAndSignUp.resources
+D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addDriverInfoTable.resources

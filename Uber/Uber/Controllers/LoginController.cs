@@ -23,9 +23,10 @@ namespace Uber.Controllers
             }
             catch (Exception ex)
             {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Massage = ex.Message });
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
             }
         }
+
         // POST api/login by create service
         /*
         [HttpPost]
@@ -44,14 +45,16 @@ namespace Uber.Controllers
         }
         */
 
+
+
+        /*
         [HttpPost]
         [Route("api/login")]
         public HttpResponseMessage Login([FromBody] LoginDTO login)
         {
             try
             {
-                var data = LoginService.Get();
-                var user = data.FirstOrDefault(u => u.username == login.username && u.password == login.password);
+                var user = LoginService.GetByUsernameAndPassword(login.username, login.password);
 
                 if (user == null)
                 {
@@ -79,6 +82,50 @@ namespace Uber.Controllers
             catch (Exception ex)
             {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
+            }
+        }
+        */
+    
+        [HttpPost]
+        [Route("api/login")]
+        public HttpResponseMessage Authenticate([FromBody] LoginDTO login)
+        {
+            try
+            {
+                // Attempt to authenticate the user
+                var user = LoginService.GetByUsernameAndPassword(login.username, login.password);
+
+                if (user == null)
+                {
+                    // User not found or password incorrect
+                    return Request.CreateResponse(HttpStatusCode.Unauthorized, new { Message = "Invalid username or password" });
+                }
+
+                // Set the user's role in a cookie
+                var cookie = new HttpCookie("UserRole");
+                cookie.Value = user.roll;
+                cookie.Expires = DateTime.Now.AddMinutes(5); // Cookie expires in 5 minutes
+                HttpContext.Current.Response.Cookies.Add(cookie);
+
+                // Login successful message
+                var response = Request.CreateResponse(HttpStatusCode.OK, new { Message = "Login successful" });
+
+                // Retrieve role from cookie and append it to the response message
+                var userRole = HttpContext.Current.Request.Cookies["UserRole"]?.Value;
+                if (!string.IsNullOrEmpty(userRole))
+                {
+                    response.Content = new StringContent(response.Content.ReadAsStringAsync().Result + " - User Role: " + userRole);
+                }
+
+                return response;
+            }
+            catch (Exception ex)
+            {
+                // Log the exception for debugging purposes
+                Console.WriteLine(ex.ToString());
+
+                // Return a detailed error message
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = "An error occurred during authentication. Please try again later." });
             }
         }
     }

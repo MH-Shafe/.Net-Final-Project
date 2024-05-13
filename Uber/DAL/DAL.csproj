@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="DataFactory..cs" />
     <Compile Include="EF\Entites\Admin\Admin.cs" />
+    <Compile Include="EF\Entites\Admin\DriverInfo.cs" />
     <Compile Include="EF\Entites\Admin\SignUp.cs" />
     <Compile Include="EF\Entites\Driver\Driver.cs" />
     <Compile Include="EF\Entites\Login.cs" />
@@ -75,10 +76,14 @@
     <Compile Include="Migrations\202405130728330_addRelationshipWithLoginAndSignUp.Designer.cs">
       <DependentUpon>202405130728330_addRelationshipWithLoginAndSignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202405131845585_addDriverInfoTable.cs" />
+    <Compile Include="Migrations\202405131845585_addDriverInfoTable.Designer.cs">
+      <DependentUpon>202405131845585_addDriverInfoTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\Admin\AdminRepo.cs" />
-    <Compile Include="Repos\Admin\ManageUsersRepo.cs" />
+    <Compile Include="Repos\Admin\DriverInfoRepo.cs" />
     <Compile Include="Repos\Admin\SignUpRepo.cs" />
     <Compile Include="Repos\Driver\DriverRepo.cs" />
     <Compile Include="Repos\LoginRepo.cs" />
@@ -101,6 +106,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202405130728330_addRelationshipWithLoginAndSignUp.resx">
       <DependentUpon>202405130728330_addRelationshipWithLoginAndSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405131845585_addDriverInfoTable.resx">
+      <DependentUpon>202405131845585_addDriverInfoTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

@@ -1,6 +1,6 @@
 ﻿namespace DAL.Migrations
 {
-
+    using DAL.EF.Entities.Admin;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -78,6 +78,24 @@
                 // Save changes to Logins
                 context.SaveChanges();
             }
+            */
+            
+            /*foreach (var username in new[] { "User-0", "User-1", "User-2", "User-3", "User-4", "User-5", "User-6", "User-7", "User-8", "User-9", "john_doe", "john" })
+            {
+                var signUp = context.SignUps.FirstOrDefault(s => s.username == username);
+                if (signUp != null)
+                {
+                    context.DriverInfos.AddOrUpdate(new DriverInfo
+                    {
+                        LicenseNumber = "DL-" + Guid.NewGuid().ToString().Substring(0, 8),
+                        LicenseExpiration = DateTime.Now.AddYears(2),
+                        VehicleModel = "Toyota Camry",
+                        VehiclePlateNumber = "ABC123",
+                        SignUpId = signUp.Id
+                    });
+                }
+            }
+            context.SaveChanges();
             */
         }
     }

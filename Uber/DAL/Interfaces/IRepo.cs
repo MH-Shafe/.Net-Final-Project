@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.EF.Entites;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
