@@ -8,17 +8,17 @@ namespace DAL.Repos
 {
     internal class SignUpRepo : IRepo<SignUp, int>
     {
-        private readonly UberContext _context;
+        private readonly UberContext context;
 
         public SignUpRepo(UberContext context)
         {
-            _context = context;
+            this.context = context;
         }
 
         public void Create(SignUp obj)
         {
-            _context.SignUps.Add(obj);
-            _context.SaveChanges();
+            context.SignUps.Add(obj);
+            context.SaveChanges();
         }
 
         public void Delete(int id)
@@ -26,19 +26,19 @@ namespace DAL.Repos
             var exobj = Get(id);
             if (exobj != null)
             {
-                _context.SignUps.Remove(exobj);
-                _context.SaveChanges();
+                context.SignUps.Remove(exobj);
+                context.SaveChanges();
             }
         }
 
         public List<SignUp> Get()
         {
-            return _context.SignUps.ToList();
+            return context.SignUps.ToList();
         }
 
         public SignUp Get(int id)
         {
-            return _context.SignUps.Find(id);
+            return context.SignUps.Find(id);
         }
 
         public void Update(SignUp obj)
@@ -46,8 +46,8 @@ namespace DAL.Repos
             var exobj = Get(obj.Id);
             if (exobj != null)
             {
-                _context.Entry(exobj).CurrentValues.SetValues(obj);
-                _context.SaveChanges();
+                context.Entry(exobj).CurrentValues.SetValues(obj);
+                context.SaveChanges();
             }
         }
     }

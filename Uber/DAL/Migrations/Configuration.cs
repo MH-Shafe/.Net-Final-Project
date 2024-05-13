@@ -43,7 +43,7 @@
             context.SaveChanges();
             */
 
-
+            /*
             if (!context.Logins.Any() && !context.SignUps.Any())
             {
                 // Add data to SignUps table
@@ -78,6 +78,7 @@
                 // Save changes to Logins
                 context.SaveChanges();
             }
+            */
         }
     }
 }

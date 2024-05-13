@@ -63,6 +63,7 @@
     <Compile Include="DTOs\User\UserDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Admin\AdminService.cs" />
+    <Compile Include="Services\Admin\ManageUsersService.cs" />
     <Compile Include="Services\Admin\SignUpService.cs" />
     <Compile Include="Services\Driver\DriverService.cs" />
     <Compile Include="Services\LoginService.cs" />

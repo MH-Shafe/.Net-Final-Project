@@ -70,6 +70,6 @@ namespace BLL.Services
             DataFactory.LoginData().Create(login);
         }
 
-        // You can add more methods as needed
+
     }
 }
