@@ -17,6 +17,6 @@ namespace DAL.EF.Entities.User
         [ForeignKey("User")]
         public int UserID { get; set; } // Foreign key property
 
-        public virtual User User { get; set; } // Navigation property
+        public virtual UserEF User { get; set; } // Navigation property
     }
 }

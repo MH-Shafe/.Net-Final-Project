@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos.User
 {
-    internal class PaymentRepo : IRepo<Payment_u, int>
+    internal class PaymentRepo : Repo, IRepo<Payment_u, int>
     {
         private readonly UberContext _context;
 

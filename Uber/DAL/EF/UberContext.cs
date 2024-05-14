@@ -15,7 +15,7 @@ namespace DAL.EF
     {
         public DbSet<Login> Logins { get; set; }
         public DbSet<SignUp> SignUps { get; set; }
-        public DbSet<User> Users { get; set; } // Add DbSet for User entity
+        public DbSet<UserEF> UserEF { get; set; } // Add DbSet for User entity
         public DbSet<Payment_u> Payment_us { get; set; } // DbSet for Payment_u entity
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

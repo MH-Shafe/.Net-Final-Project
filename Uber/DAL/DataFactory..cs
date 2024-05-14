@@ -30,6 +30,10 @@ namespace DAL
         {
             return new PaymentRepo(context);
         }
+        public static IRepo<UserEF, int> UserEFData()
+        {
+            return new UserRepo(context);
+        }
 
     }
 }

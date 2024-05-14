@@ -80,6 +80,10 @@
     <Compile Include="Migrations\202405140931058_addPaymentTable.designer.cs">
       <DependentUpon>202405140931058_addPaymentTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202405141351187_changeNameOfuserTableToUserEF.cs" />
+    <Compile Include="Migrations\202405141351187_changeNameOfuserTableToUserEF.designer.cs">
+      <DependentUpon>202405141351187_changeNameOfuserTableToUserEF.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\Admin\AdminRepo.cs" />
@@ -109,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202405140931058_addPaymentTable.resx">
       <DependentUpon>202405140931058_addPaymentTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405141351187_changeNameOfuserTableToUserEF.resx">
+      <DependentUpon>202405141351187_changeNameOfuserTableToUserEF.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

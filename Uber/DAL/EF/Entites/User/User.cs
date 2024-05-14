@@ -5,7 +5,7 @@ using DAL.EF.Entities.User; // Import the namespace containing the Payment_u ent
 
 namespace DAL.EF.Entities.User
 {
-    public class User
+    public class UserEF
     {
         [Key]
         public int UserID { get; set; } // Primary Key
