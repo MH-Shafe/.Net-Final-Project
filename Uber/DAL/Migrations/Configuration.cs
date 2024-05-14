@@ -1,6 +1,8 @@
 ﻿namespace DAL.Migrations
 {
-
+    using DAL.EF.Entites;
+    using DAL.EF.Entites.Admin;
+    using DAL.EF.Entities.User;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -79,6 +81,69 @@
                 context.SaveChanges();
             }
             */
+
+            //masud 
+            /*
+            var rand = new Random();
+
+            for (int i = 0; i < 10; i++)
+            {
+                var signUp = new SignUp
+                {
+                    username = $"user{i}",
+                    Name = $"User{i} Name",
+                    Email = $"user{i}@example.com",
+                    Country = "Unknown"
+                };
+
+                var login = new Login
+                {
+                    username = signUp.username,
+                    password = $"password{i}",
+                    roll = "User",
+                    SignUp = signUp
+                };
+
+                context.Set<SignUp>().Add(signUp);
+                context.Set<Login>().Add(login);
+            }
+
+            context.SaveChanges();
+        */
+            /*
+            for (int i = 0; i < 10; i++)
+            {
+                var user = new User
+                {
+                    Username = "User-" + i,
+                    Email = $"user{i}@example.com",
+                    Password = Guid.NewGuid().ToString().Substring(0, 10),
+                    PhoneNumber = $"123456789{i}" // You can modify this according to your data model
+                };
+                context.Users.AddOrUpdate(user);
+            }
+
+            context.SaveChanges(); // Save changes to ensure User IDs are generated
+
+            // Seed Payment_u data
+            for (int i = 0; i < 10; i++)
+            {
+                var payment = new Payment_u
+                {
+                    PaymentMethod = "Method-" + i,
+                    TransactionAmount = (decimal)(i * 100.50), // Example amount
+                    Timestamp = DateTime.Now.AddDays(-i), // Example timestamp
+                    UserID = i + 1 // Assuming UserIDs start from 1
+                };
+                context.Payment_us.AddOrUpdate(payment);
+            }
+
+            context.SaveChanges();
+            */
+
         }
+            
+
+    
     }
 }

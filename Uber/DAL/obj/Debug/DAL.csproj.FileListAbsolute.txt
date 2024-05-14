@@ -32,3 +32,4 @@ D:\Class Material\.Net-Final-Project\Uber\DAL\bin\Debug\EntityFramework.SqlServe
 D:\Class Material\.Net-Final-Project\Uber\DAL\bin\Debug\EntityFramework.xml
 D:\Class Material\.Net-Final-Project\Uber\DAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addPaymentTable.resources
