@@ -57,6 +57,7 @@
     <Compile Include="EF\Entites\Driver\Driver.cs" />
     <Compile Include="EF\Entites\Login.cs" />
     <Compile Include="EF\Entites\User\Payment_u.cs" />
+    <Compile Include="EF\Entites\User\Subscription_u.cs" />
     <Compile Include="EF\Entites\User\User.cs" />
     <Compile Include="EF\UberContext.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
@@ -84,6 +85,10 @@
     <Compile Include="Migrations\202405141351187_changeNameOfuserTableToUserEF.designer.cs">
       <DependentUpon>202405141351187_changeNameOfuserTableToUserEF.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202405141713423_addSubscriptionTable.cs" />
+    <Compile Include="Migrations\202405141713423_addSubscriptionTable.designer.cs">
+      <DependentUpon>202405141713423_addSubscriptionTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\Admin\AdminRepo.cs" />
@@ -92,6 +97,7 @@
     <Compile Include="Repos\LoginRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
     <Compile Include="Repos\User\PaymentRepo.cs" />
+    <Compile Include="Repos\User\SubscriptionRepo.cs" />
     <Compile Include="Repos\User\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202405141351187_changeNameOfuserTableToUserEF.resx">
       <DependentUpon>202405141351187_changeNameOfuserTableToUserEF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405141713423_addSubscriptionTable.resx">
+      <DependentUpon>202405141713423_addSubscriptionTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

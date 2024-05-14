@@ -11,6 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAL.EF.Entities.User;
+using DAL.EF.Entites.User;
 
 namespace DAL
 {
@@ -33,6 +34,10 @@ namespace DAL
         public static IRepo<UserEF, int> UserEFData()
         {
             return new UserRepo(context);
+        }
+        public static IRepo<Subscription_u, int> Subscription_uData()
+        {
+            return new SubscriptionRepo(context);
         }
 
     }
