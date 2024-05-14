@@ -1,8 +1,12 @@
 ﻿using DAL.EF;
 using DAL.EF.Entites;
 using DAL.EF.Entites.Admin;
+using DAL.EF.Entites.Driver;
+using DAL.EF.Entities.Driver;
 using DAL.Interfaces;
 using DAL.Repos;
+using DAL.Repos.Driver;
+using DAL.Repos.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,5 +27,22 @@ namespace DAL
         {
             return new SignUpRepo(context);
         }
+
+        public static IRepo<SignUp_D, int> SignUpData_D()
+        {
+            return new SignUpRepo_D(context);
+        }
+
+
+        public static IRepo<Payment, int> PaymentData()
+        { 
+             return new PaymentRepo(context); 
+        }
+
+        public static IRepo<Subscription, int> SubscriptionData()
+        {
+            return new SubscriptionRepo(context);
+        }
+
     }
 }

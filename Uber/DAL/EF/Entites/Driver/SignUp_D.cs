@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace DAL.EF.Entites.Driver
 {
-    internal class SignUp_D
+    public class SignUp_D
     {
         public int Id { get; set; }
         public string username { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Country { get; set; }
-        // Navigation property for Login
-        public virtual Login Login { get; set; }
+
+        public string Phone_Number { get; set; }
+
     }
 }

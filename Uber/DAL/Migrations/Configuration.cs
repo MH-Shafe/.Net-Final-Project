@@ -1,6 +1,6 @@
 ﻿namespace DAL.Migrations
 {
-
+    using DAL.EF.Entities.Driver;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -10,7 +10,7 @@
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(DAL.EF.UberContext context)
@@ -79,6 +79,33 @@
                 context.SaveChanges();
             }
             */
+            // Seeding Drivers
+            /*
+            for (int i = 0; i < 10; i++)
+            {
+                context.DriverEFs.AddOrUpdate(new DriverEF
+                {
+                    Username = "Driver-" + i,
+                    Email = $"driver{i}@example.com",
+                    Password = "password" + i,
+                    PhoneNumber = "12345678" + i
+                });
+            }
+
+            // Seed Payments
+            for (int i = 0; i < 10; i++)
+            {
+                context.Payments.AddOrUpdate(new Payment
+                {
+                    PaymentMethod = "Credit Card",
+                    TransactionAmount = 50.00m + (i * 5), // Increasing amount for each payment
+                    Timestamp = DateTime.Now.AddDays(-i) // Changing timestamp for each payment
+                });
+            }
+
+            // Save changes to the database
+            context.SaveChanges();
+           */ 
         }
     }
 }

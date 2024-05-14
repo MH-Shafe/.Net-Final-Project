@@ -1,12 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
-namespace DAL.EF.Entites.Driver
+
+namespace DAL.EF.Entities.Driver
+
 {
-    internal class Driver
+    public class DriverEF
     {
+        [Key]
+        public int UserID { get; set; } // Primary Key       
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string PhoneNumber { get; set; }
+
+        // Navigation property for payments
+        public virtual ICollection<Payment> Payments { get; set; }
     }
 }

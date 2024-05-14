@@ -8,7 +8,7 @@ namespace BLL.DTOs.Admin
 {
     public class SignUpLoginDTO
     {
-        public SignUpDTO SignUp { get; set; }
+        public SignUpDTO SignUp_D { get; set; }
         public LoginDTO Login { get; set; }
     }
 }

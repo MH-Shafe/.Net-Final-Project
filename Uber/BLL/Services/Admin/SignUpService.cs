@@ -61,7 +61,7 @@ namespace BLL.Services
         public static void CreateSignUpAndLogin(SignUpLoginDTO dto) // Changed method name
         {
            // var mapper = new Mapper(config);
-            var signUp = mapper.Map<SignUp>(dto.SignUp);
+            var signUp = mapper.Map<SignUp>(dto.SignUp_D);
             DataFactory.SignUpData().Create(signUp);
 
             dto.Login.SignUpId = signUp.Id;
