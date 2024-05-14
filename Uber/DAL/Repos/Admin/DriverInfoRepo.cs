@@ -39,12 +39,12 @@ namespace DAL.Repos.Admin
             return db.DriverInfos.ToList();
         }
         public void Update(DriverInfo obj)
-            {
-                var exobj = Get(obj.Id);
-                db.Entry(exobj).CurrentValues.SetValues(obj);
-                db.SaveChanges();
-            }
-
-    
+        {
+            var exobj = Get(obj.Id);
+            db.Entry(exobj).CurrentValues.SetValues(obj);
+            db.SaveChanges();
         }
+
+
+    }
     }

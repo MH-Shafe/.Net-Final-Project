@@ -15,8 +15,8 @@ namespace DAL.EF
     {
         public DbSet<Login> Logins { get; set; }
         public DbSet<SignUp> SignUps { get; set; }
-        public DbSet<DriverInfo> DriverInfos { get; set; } // Add DbSet for DriverInfo
-
+        public DbSet<DriverInfo> DriverInfos { get; set; }
+        public DbSet<Email> Emails { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Login>()

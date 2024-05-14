@@ -5,6 +5,7 @@ using DAL.EF.Entites.Admin;
 using DAL.EF.Entities.Admin;
 using DAL.Repos.Admin;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BLL.Services.Admin
 {
@@ -45,6 +46,30 @@ namespace BLL.Services.Admin
             var dtos = mapper.Map<List<SignUpDTO>>(data);
 
             return dtos;
+        }
+        /*
+        public static void Delete(int id)
+        {
+            var entity = DataFactory.SignUpData().Get(id);
+            if (entity != null)
+            {
+                DataFactory.SignUpData().Delete(id);
+            }
+        }
+        */
+        public static void Delete(int id)
+        {
+            var entity = DataFactory.SignUpData().Get(id);
+            if (entity != null)
+            {
+                // Delete associated login
+                var login = DataFactory.LoginData().Get().FirstOrDefault(l => l.SignUpId == id);
+                if (login != null)
+                    LoginService.Delete(login.Id);
+
+                // Delete sign-up
+                DataFactory.SignUpData().Delete(id);
+            }
         }
     }
 }

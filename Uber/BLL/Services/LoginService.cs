@@ -43,6 +43,34 @@ namespace BLL.Services
 
             return MapToDTO(data);
         }
+        public static void Delete(int id)
+        {
+            DataFactory.LoginData().Delete(id);
+        }
+
+        public static void DeleteUserData(int userId)
+        {
+            // Delete Login data
+            var login = DataFactory.LoginData().Get().FirstOrDefault(l => l.SignUpId == userId);
+            if (login != null)
+            {
+                DataFactory.LoginData().Delete(login.Id);
+            }
+
+            // Delete SignUp data
+            var signUp = DataFactory.SignUpData().Get(userId);
+            if (signUp != null)
+            {
+                DataFactory.SignUpData().Delete(signUp.Id);
+            }
+
+            // Delete DriverInfo data
+            var driverInfo = DataFactory.DriverInfoData().Get(userId);
+            if (driverInfo != null)
+            {
+                DataFactory.DriverInfoData().Delete(driverInfo.Id);
+            }            
+        }
 
         private static LoginDTO MapToDTO(Login entity)
         {

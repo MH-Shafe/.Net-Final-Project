@@ -10,10 +10,11 @@ using System.Web.Http;
 
 namespace Uber.Controllers
 {
+    [RoutePrefix("api/alllogin")]
     public class LoginController : ApiController
     {
         [HttpGet]
-        [Route("api/login")]
+        [Route("")]
         public HttpResponseMessage Logins()
         {
             try
@@ -87,7 +88,7 @@ namespace Uber.Controllers
         */
     
         [HttpPost]
-        [Route("api/login")]
+        [Route("")]
         public HttpResponseMessage Authenticate([FromBody] LoginDTO login)
         {
             try
@@ -104,7 +105,11 @@ namespace Uber.Controllers
                 // Set the user's role in a cookie
                 var cookie = new HttpCookie("UserRole");
                 cookie.Value = user.roll;
+                var UserNamecookie = new HttpCookie("username");
+                UserNamecookie.Value = user.username;
+                UserNamecookie.Expires = DateTime.Now.AddMinutes(5);
                 cookie.Expires = DateTime.Now.AddMinutes(5); // Cookie expires in 5 minutes
+                HttpContext.Current.Response.Cookies.Add(UserNamecookie);
                 HttpContext.Current.Response.Cookies.Add(cookie);
 
                 // Login successful message
@@ -126,6 +131,22 @@ namespace Uber.Controllers
 
                 // Return a detailed error message
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = "An error occurred during authentication. Please try again later." });
+            }
+        }
+
+        [HttpDelete]
+        [Route("deleteAll/{id}")]
+        public HttpResponseMessage DeleteUser(int id)
+        {
+            try
+            {
+                LoginService.DeleteUserData(id);
+                return Request.CreateResponse(HttpStatusCode.OK);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception or handle it according to your application's requirements
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, "An error occurred while deleting user data.");
             }
         }
     }

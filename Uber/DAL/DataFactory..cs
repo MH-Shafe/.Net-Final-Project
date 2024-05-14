@@ -7,6 +7,7 @@ using DAL.Interfaces;
 using DAL.Repos;
 using DAL.Repos.Admin;
 using System;
+using DAL.Repositories;
 
 namespace DAL
 {
@@ -27,6 +28,10 @@ namespace DAL
         public static IRepo<DriverInfo, int> DriverInfoData() // Corrected method name
         {
             return new DriverInfoRepo(); // Make sure you have a DriverInfoRepo class
+        }
+        public static IRepo<Email, int> EmailData() // Corrected method name
+        {
+            return new EmailRepo(context); // Make sure you have a DriverInfoRepo class
         }
     }
 }
