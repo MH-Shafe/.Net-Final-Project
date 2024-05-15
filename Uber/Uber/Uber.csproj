@@ -98,6 +98,7 @@
     <Compile Include="Controllers\Driver\DriverController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\User\PaymentController.cs" />
+    <Compile Include="Controllers\User\Ride_uController.cs" />
     <Compile Include="Controllers\User\SubscriptionController.cs" />
     <Compile Include="Controllers\User\UserController.cs" />
     <Compile Include="Global.asax.cs">

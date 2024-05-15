@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace BLL.DTOs.User
 {
-    internal class DriverDTO
+  
+    public class DriverDTO
     {
+        public int DriverID { get; set; } // Primary Key
+
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
+        public string Email { get; set; }
+
+        public string Phone { get; set; }
     }
 }

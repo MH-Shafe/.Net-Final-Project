@@ -43,6 +43,11 @@ namespace DAL
         {
             return new RideRepo(context);
         }
+        public static IRepo<Driver_u, int> Driver_uData()
+        {
+            return new DriverRepo(context);
+        }
+        
 
 
     }
