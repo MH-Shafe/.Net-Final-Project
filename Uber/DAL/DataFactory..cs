@@ -39,6 +39,11 @@ namespace DAL
         {
             return new SubscriptionRepo(context);
         }
+        public static IRepo<Ride_u, int> Ride_uData()
+        {
+            return new RideRepo(context);
+        }
+
 
     }
 }

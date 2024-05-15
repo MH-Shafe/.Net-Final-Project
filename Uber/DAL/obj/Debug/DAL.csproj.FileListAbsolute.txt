@@ -35,3 +35,4 @@ D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addPaymentTable.resources
 D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.changeNameOfuserTableToUserEF.resources
 D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addSubscriptionTable.resources
+D:\Class Material\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.Ride_uAndDriver_u.resources
