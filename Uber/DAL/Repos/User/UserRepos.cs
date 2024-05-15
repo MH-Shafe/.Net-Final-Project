@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos.User
 {
-    internal class UserRepo
+    internal class UserRepos
     {
     }
 }

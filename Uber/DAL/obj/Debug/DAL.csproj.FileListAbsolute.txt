@@ -52,3 +52,4 @@ D:\uber project\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.pdb
 D:\uber project\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.SignUp_D.resources
 D:\uber project\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addPaymentandDriverTable.resources
 D:\uber project\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addSubscriptionTable.resources
+D:\uber project\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addRideandUserTable.resources

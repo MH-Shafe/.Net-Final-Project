@@ -3,7 +3,7 @@ using DAL.EF.Entites.Admin;
 using DAL.EF.Entites.Driver;
 using DAL.EF.Entites.User;
 using DAL.EF.Entities.Driver;
-
+using DAL.EF.Entities.User;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -19,10 +19,14 @@ namespace DAL.EF
         public DbSet<SignUp> SignUps { get; set; }
         public DbSet<SignUp_D> SignUp_Ds { get; set; }
 
-        public DbSet<DriverEF> DriverEFs { get; set; } // Add DbSet for User entity
-        public DbSet<Payment> Payments { get; set; } // DbSet for Payment_u entity
+        public DbSet<DriverEF> DriverEFs { get; set; } 
+        public DbSet<Payment> Payments { get; set; } 
 
         public DbSet<Subscription> Subscriptions { get; set; }
+
+        public DbSet<Ride> Rides { get; set; }
+
+        public DbSet<UserEF> UserEFs { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

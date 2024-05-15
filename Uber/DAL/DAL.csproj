@@ -56,8 +56,10 @@
     <Compile Include="EF\Entites\Admin\SignUp.cs" />
     <Compile Include="EF\Entites\Driver\Driver.cs" />
     <Compile Include="EF\Entites\Driver\Payment.cs" />
+    <Compile Include="EF\Entites\Driver\Ride.cs" />
     <Compile Include="EF\Entites\Driver\SignUp_D.cs" />
     <Compile Include="EF\Entites\Driver\Subscription.cs" />
+    <Compile Include="EF\Entites\Driver\User.cs" />
     <Compile Include="EF\Entites\Login.cs" />
     <Compile Include="EF\Entites\User\User.cs" />
     <Compile Include="EF\UberContext.cs" />
@@ -90,17 +92,23 @@
     <Compile Include="Migrations\202405141714119_addSubscriptionTable.designer.cs">
       <DependentUpon>202405141714119_addSubscriptionTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202405150416211_addRideandUserTable.cs" />
+    <Compile Include="Migrations\202405150416211_addRideandUserTable.designer.cs">
+      <DependentUpon>202405150416211_addRideandUserTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\Admin\AdminRepo.cs" />
     <Compile Include="Repos\Admin\SignUpRepo.cs" />
     <Compile Include="Repos\Driver\DriverRepo.cs" />
     <Compile Include="Repos\Driver\PaymentRepo.cs" />
+    <Compile Include="Repos\Driver\RideRepo.cs" />
     <Compile Include="Repos\Driver\SignUpRepo_D.cs" />
     <Compile Include="Repos\Driver\SubscriptionRepo.cs" />
+    <Compile Include="Repos\Driver\UserRepo.cs" />
     <Compile Include="Repos\LoginRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
-    <Compile Include="Repos\User\UserRepo.cs" />
+    <Compile Include="Repos\User\UserRepos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -127,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202405141714119_addSubscriptionTable.resx">
       <DependentUpon>202405141714119_addSubscriptionTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405150416211_addRideandUserTable.resx">
+      <DependentUpon>202405150416211_addRideandUserTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

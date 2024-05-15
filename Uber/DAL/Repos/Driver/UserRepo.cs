@@ -1,4 +1,4 @@
-﻿using DAL.EF.Entities.Driver;
+﻿using DAL.EF.Entities.User;
 using DAL.EF;
 using DAL.Interfaces;
 using System;
@@ -10,32 +10,32 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos.Driver
 {
-    internal class DriverRepo : IRepo<DriverEF, int>
+    internal class UserRepo : IRepo<UserEF, int>
     {
         private readonly UberContext _context;
 
-        public DriverRepo(UberContext context)
+        public UserRepo(UberContext context)
         {
             _context = context;
         }
 
-        public void Create(DriverEF obj)
+        public void Create(UserEF obj)
         {
-            _context.DriverEFs.Add(obj);
+            _context.UserEFs.Add(obj);
             _context.SaveChanges();
         }
 
-        public List<DriverEF> Get()
+        public List<UserEF> Get()
         {
-            return _context.DriverEFs.ToList();
+            return _context.UserEFs.ToList();
         }
 
-        public DriverEF Get(int id)
+        public UserEF Get(int id)
         {
-            return _context.DriverEFs.Find(id);
+            return _context.UserEFs.Find(id);
         }
 
-        public void Update(DriverEF obj)
+        public void Update(UserEF obj)
         {
             _context.Entry(obj).State = EntityState.Modified;
             _context.SaveChanges();
@@ -43,10 +43,10 @@ namespace DAL.Repos.Driver
 
         public void Delete(int id)
         {
-            var driver = _context.DriverEFs.Find(id);
-            if (driver != null)
+            var user = _context.UserEFs.Find(id);
+            if (user != null)
             {
-                _context.DriverEFs.Remove(driver);
+                _context.UserEFs.Remove(user);
                 _context.SaveChanges();
             }
         }

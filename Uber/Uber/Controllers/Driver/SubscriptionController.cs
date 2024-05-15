@@ -12,15 +12,12 @@ namespace Uber.Controllers.Driver
     {
         private readonly SubscriptionService _subscriptionService;
 
-        // Constructor injection
+        
         public SubscriptionController(SubscriptionService subscriptionService)
         {
             _subscriptionService = subscriptionService;
         }
-        public SubscriptionController()
-        {
-            // You can initialize any fields or properties here if needed
-        }
+        
         [HttpPost]
         [Route("CreateSubscription")]
         public IHttpActionResult CreateSubscription(Subscription subscription)

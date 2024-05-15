@@ -60,8 +60,10 @@
     <Compile Include="DTOs\Admin\SignUpLoginDTO.cs" />
     <Compile Include="DTOs\Driver\DriverDTO.cs" />
     <Compile Include="DTOs\Driver\PaymentDTO.cs" />
+    <Compile Include="DTOs\Driver\RideDTO.cs" />
     <Compile Include="DTOs\Driver\SignUpDTO_D.cs" />
     <Compile Include="DTOs\Driver\SubscriptionDTO.cs" />
+    <Compile Include="DTOs\Driver\UserDTO.cs" />
     <Compile Include="DTOs\LoginDTO.cs" />
     <Compile Include="DTOs\User\UserDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,6 +72,7 @@
     <Compile Include="Services\Admin\SignUpService.cs" />
     <Compile Include="Services\Driver\DriverService.cs" />
     <Compile Include="Services\Driver\PaymentService.cs" />
+    <Compile Include="Services\Driver\RideService.cs" />
     <Compile Include="Services\Driver\SignUpService_D.cs" />
     <Compile Include="Services\Driver\SubscriptionService.cs" />
     <Compile Include="Services\LoginService.cs" />
