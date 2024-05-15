@@ -115,6 +115,7 @@
     <Compile Include="DTOs\Admin\AdminDTO.cs" />
     <Compile Include="DTOs\Admin\DriverInfoDTO.cs" />
     <Compile Include="DTOs\Admin\EmailDTO.cs" />
+    <Compile Include="DTOs\Admin\PasswordChangeDTO.cs" />
     <Compile Include="DTOs\Admin\SignUpDTO.cs" />
     <Compile Include="DTOs\Admin\SignUpLoginDTO.cs" />
     <Compile Include="DTOs\Driver\DriverDTO.cs" />
@@ -126,6 +127,7 @@
     <Compile Include="Services\Admin\EmailService.cs" />
     <Compile Include="Services\Admin\HelperFunction.cs" />
     <Compile Include="Services\Admin\MapService.cs" />
+    <Compile Include="Services\Admin\PasswordChangeService.cs" />
     <Compile Include="Services\Admin\SignUpService.cs" />
     <Compile Include="Services\Driver\DriverService.cs" />
     <Compile Include="Services\LoginService.cs" />

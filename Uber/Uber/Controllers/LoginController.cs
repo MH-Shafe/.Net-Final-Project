@@ -141,7 +141,7 @@ namespace Uber.Controllers
             try
             {
                 LoginService.DeleteUserData(id);
-                return Request.CreateResponse(HttpStatusCode.OK);
+                return Request.CreateResponse(HttpStatusCode.OK,new { Message = id + " All info has been deleted" });
             }
             catch (Exception ex)
             {

@@ -25,13 +25,17 @@ namespace DAL
             return new SignUpRepo(context);
         }
 
-        public static IRepo<DriverInfo, int> DriverInfoData() // Corrected method name
+        public static IRepo<DriverInfo, int> DriverInfoData() 
         {
-            return new DriverInfoRepo(); // Make sure you have a DriverInfoRepo class
+            return new DriverInfoRepo(); 
         }
-        public static IRepo<Email, int> EmailData() // Corrected method name
+        public static IRepo<Email, int> EmailData() 
         {
-            return new EmailRepo(context); // Make sure you have a DriverInfoRepo class
+            return new EmailRepo(context); 
+        }
+        public static IRepo<PasswordChange, int> PasswordChangeData() 
+        {
+            return new PasswordChangeRepo(); 
         }
     }
 }

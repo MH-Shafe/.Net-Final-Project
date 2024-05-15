@@ -1,4 +1,5 @@
 ﻿using DAL.EF.Entites.Admin;
+using DAL.EF.Entities.Admin;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -21,6 +22,6 @@ namespace DAL.EF.Entites
 
         // Navigation property
         public virtual SignUp SignUp { get; set; }
-
+        public virtual PasswordChange PasswordChange { get; set; }
     }
 }

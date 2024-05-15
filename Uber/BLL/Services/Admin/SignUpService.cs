@@ -11,6 +11,19 @@ namespace BLL.Services.Admin
 {
     public class SignUpService
     {
+        private static readonly IMapper _mapper;
+
+        static SignUpService()
+        {
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<SignUp, SignUpDTO>();
+                cfg.CreateMap<SignUpDTO, SignUp>();
+            });
+            _mapper = config.CreateMapper();
+        }
+
+
         public static SignUpDTO Get(int id)
         {
             var data = DataFactory.SignUpData().Get(id);
@@ -47,7 +60,15 @@ namespace BLL.Services.Admin
 
             return dtos;
         }
-        /*
+
+        public static void Update(SignUpDTO dto)
+        {
+            var entity = _mapper.Map<SignUp>(dto);
+            DataFactory.SignUpData().Update(entity);
+        }
+
+
+        
         public static void Delete(int id)
         {
             var entity = DataFactory.SignUpData().Get(id);
@@ -56,8 +77,8 @@ namespace BLL.Services.Admin
                 DataFactory.SignUpData().Delete(id);
             }
         }
-        */
-        public static void Delete(int id)
+        
+        public static void DeleteSignupLogin(int id)
         {
             var entity = DataFactory.SignUpData().Get(id);
             if (entity != null)

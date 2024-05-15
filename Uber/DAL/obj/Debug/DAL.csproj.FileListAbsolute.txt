@@ -42,3 +42,4 @@ D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\bin\Debug\System.Runtime.Compile
 D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\bin\Debug\System.ValueTuple.xml
 D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.fixEmailTable.resources
+D:\Class\A.Net\code\.Net-Final-Project\Uber\DAL\obj\Debug\DAL.Migrations.addChangePasswordTable.resources

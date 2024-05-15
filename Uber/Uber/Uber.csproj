@@ -128,6 +128,7 @@
     <Compile Include="Controllers\Admin\DriverInfoController.cs" />
     <Compile Include="Controllers\Admin\EmailController.cs" />
     <Compile Include="Controllers\Admin\MapController.cs" />
+    <Compile Include="Controllers\Admin\PasswordChangeController.cs" />
     <Compile Include="Controllers\Admin\SignUpController.cs" />
     <Compile Include="Controllers\Admin\AdminController.cs" />
     <Compile Include="Controllers\Driver\DriverController.cs" />
